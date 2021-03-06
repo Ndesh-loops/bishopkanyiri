@@ -138,16 +138,16 @@ Public Class admissions
     End Sub
 
     Private Sub Populating()
-        studentnumber = StdnoTextBox.Text
-        firstname = SfirstnameTextBox.Text
-        lastname = lastnameTextBox.Text
-        gender = GenderComboBox.Text
-        sclass = ClassComboBox.Text
-        first_name = PfirstnameTextBox.Text
-        surname = SurnameTextBox.Text
-        email = EmailTextBox.Text
-        phone = PhoneTextBox.Text
-        address = AddressTextBox.Text
+        studentnumber = StdnoTextBox.Text.ToLower
+        firstname = SfirstnameTextBox.Text.ToLower
+        lastname = lastnameTextBox.Text.ToLower
+        gender = GenderComboBox.Text.ToLower
+        sclass = ClassComboBox.Text.ToLower
+        first_name = PfirstnameTextBox.Text.ToLower
+        surname = SurnameTextBox.Text.ToLower
+        email = EmailTextBox.Text.ToLower
+        phone = PhoneTextBox.Text.ToLower
+        address = AddressTextBox.Text.ToLower
 
 
     End Sub
@@ -284,7 +284,7 @@ Public Class admissions
         Dim sql As String
         Dim SearchValue As String
         SearchValue = SearchTextBox.Text
-        sql = "select * from 'admission' WHERE 'firstname' like '%" & SearchValue & "%'"
+        sql = "select * from `admission` WHERE `firstname` like '%" & SearchValue & "%' OR `lastname` like '%" & SearchValue & "%' OR `class` like '%" & SearchValue & "%' "
         Call PopulateListView(ListView1, sql)
     End Sub
 
