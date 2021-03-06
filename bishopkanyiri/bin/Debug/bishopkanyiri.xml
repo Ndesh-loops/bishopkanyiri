@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bishopkanyiri
+</name>
+</assembly>
+<members>
+<member name="T:bishopkanyiri.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:bishopkanyiri.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:bishopkanyiri.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:bishopkanyiri.My.Resources.Resources._3368614_200">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:bishopkanyiri.My.Resources.Resources._59042_classroom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:bishopkanyiri.My.Resources.Resources.iconfinder_Auditorium_classroom_pupil_school_students__4763272">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:bishopkanyiri.My.Resources.Resources.iconfinder_Education_and_Learning_school_staff_pass_id_teacher_6590533">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:bishopkanyiri.My.Resources.Resources.iconfinder_list_numbered_close_4295567">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:bishopkanyiri.My.Resources.Resources.iconfinder_Trello_2613289">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:bishopkanyiri.My.Resources.Resources.prjct">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
