@@ -70,7 +70,8 @@ Module Bmodule
         Dim inventory As String
         admission = "CREATE TABLE IF NOT EXISTS `admission` (id tinyint(4) Not NULL,`studentnumber` tinyint(4) Not NULL,`firstname` tinytext Not NULL,`lastname` tinytext Not NULL,`gender` tinytext Not NULL,`class` varchar(100) Not NULL,`first_name` tinytext Not NULL,`surname` tinytext Not NULL,`email` varchar(200) Not NULL,`address` varchar(150) Not NULL,`phone` int(4) Not NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4"
 
-        projects = "CREATE TABLE IF NOT EXISTS `inventory` (`id` tinyint(4) NOT NULL,`inveno` tinyint(4) NOT NULL,`itemname` varchar(500) NOT NULL,`serialnumber` varchar(500) NOT NULL,`storage` varchar(500) NOT NULL,`custodian` tinytext NOT NULL,`date-added` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4"
+        projects = "CREATE TABLE IF NOT EXISTS `projects` (`id` tinyint(4) Not NULL,`projectno` tinyint(4) Not NULL,`project-title` varchar(800) Not NULL,`start-date` timestamp Not NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),`due-date` varchar(600) Not NULL,`assigned` tinytext Not NULL,`status` tinytext Not NULL,`description` text Not NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4"
+
 
         staff = "CREATE TABLE IF NOT EXISTS `staff` ( `id` tinyint(11) NOT NULL,`staffno` tinyint(11) NOT NULL,`firstname` tinytext NOT NULL,`surname` tinytext NOT NULL,`phone` varchar(500) NOT NULL,`email` varchar(300) NOT NULL,`idnumber` varchar(200) NOT NULL,`category` tinytext NOT NULL,`workarea` tinytext NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4"
 
